@@ -1,4 +1,6 @@
-namespace ServMarkService.Models;
+using System.Text.Json.Serialization;
+
+namespace ServMarkService.Models.Product;
 
 public class Product
 {
@@ -8,5 +10,6 @@ public class Product
     public double Price { get; set; }
     public int CategoryId { get; set; }
     public virtual Category Category { get; set; }
-    public List<string> Images { get; set; }
+    [JsonIgnore]
+    public virtual ICollection<Image> Images {get;set;}
 }

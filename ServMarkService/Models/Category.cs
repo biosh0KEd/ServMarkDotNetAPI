@@ -8,5 +8,5 @@ public class Category
     public string Name { get; set; }
     public string TypeImg { get; set; }
     [JsonIgnore]
-    public virtual ICollection<Product> Products {get;set;}
+    public virtual ICollection<Product.Product> Products {get;set;}
 }
