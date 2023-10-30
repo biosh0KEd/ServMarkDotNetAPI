@@ -12,7 +12,7 @@ using ServMarkService.Data;
 namespace ServMarkService.Migrations
 {
     [DbContext(typeof(ProductsContext))]
-    [Migration("20231028234724_InitialCreate")]
+    [Migration("20231030064320_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -137,7 +137,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 1,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
                             Price = 349.0,
                             Title = "Handcrafted Metal Towels"
@@ -145,7 +145,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 2,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 724.0,
                             Title = "Fantastic Granite Shirt"
@@ -153,7 +153,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 3,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
                             Price = 834.0,
                             Title = "Gorgeous Soft Shoes"
@@ -161,7 +161,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 4,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 122.0,
                             Title = "Awesome Wooden Shirt"
@@ -169,7 +169,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 5,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
                             Price = 690.0,
                             Title = "Small Frozen Ball"
@@ -177,7 +177,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 6,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
                             Price = 360.0,
                             Title = "Handcrafted Frozen Sausages"
@@ -185,7 +185,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 7,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 572.0,
                             Title = "Ergonomic Plastic Mouse"
@@ -193,7 +193,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 8,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Price = 972.0,
                             Title = "Gorgeous Frozen Fish"
@@ -201,7 +201,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 9,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
                             Price = 547.0,
                             Title = "Gorgeous Cotton Cheese"
@@ -209,7 +209,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 10,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
                             Price = 806.0,
                             Title = "Fantastic Frozen Pants"
@@ -217,7 +217,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 11,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 830.0,
                             Title = "Unbranded Fresh Cheese"
@@ -225,7 +225,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 12,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 306.0,
                             Title = "Ergonomic Cotton Car"
@@ -233,7 +233,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 13,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 794.0,
                             Title = "Sleek Fresh Keyboard"
@@ -241,7 +241,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 14,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
                             Price = 223.0,
                             Title = "Handmade Steel Hat"
@@ -249,7 +249,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 15,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Price = 910.0,
                             Title = "Licensed Concrete Towels"
@@ -257,7 +257,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 16,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 851.0,
                             Title = "Intelligent Wooden Salad"
@@ -265,7 +265,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 17,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 468.0,
                             Title = "Handmade Granite Tuna"
@@ -273,7 +273,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 18,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 842.0,
                             Title = "Unbranded Concrete Ball"
@@ -281,7 +281,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 19,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
                             Price = 524.0,
                             Title = "Rustic Cotton Computer"
@@ -289,7 +289,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 20,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 401.0,
                             Title = "Rustic Cotton Mouse"
@@ -297,7 +297,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 21,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 249.0,
                             Title = "Licensed Cotton Salad"
@@ -305,7 +305,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 22,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 880.0,
                             Title = "Awesome Plastic Shirt"
@@ -313,7 +313,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 23,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 663.0,
                             Title = "Handcrafted Steel Pizza"
@@ -321,7 +321,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 24,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Price = 490.0,
                             Title = "Tasty Wooden Pizza"
@@ -329,7 +329,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 25,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 931.0,
                             Title = "Ergonomic Plastic Chicken"
@@ -337,7 +337,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 26,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 121.0,
                             Title = "Fantastic Steel Hat"
@@ -345,7 +345,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 27,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
                             Price = 759.0,
                             Title = "Practical Wooden Keyboard"
@@ -353,7 +353,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 28,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
                             Price = 997.0,
                             Title = "Tasty Metal Hat"
@@ -361,7 +361,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 29,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
                             Price = 902.0,
                             Title = "Refined Plastic Tuna"
@@ -369,7 +369,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 30,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
                             Price = 517.0,
                             Title = "Generic Metal Cheese"
@@ -377,7 +377,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 31,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 458.0,
                             Title = "Fantastic Concrete Hat"
@@ -385,7 +385,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 32,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 179.0,
                             Title = "Sleek Wooden Bacon"
@@ -393,7 +393,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 33,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 142.0,
                             Title = "Intelligent Metal Car"
@@ -401,7 +401,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 34,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
                             Price = 593.0,
                             Title = "Gorgeous Plastic Soap"
@@ -409,7 +409,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 35,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
                             Price = 666.0,
                             Title = "Small Fresh Table"
@@ -417,7 +417,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 36,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
                             Price = 254.0,
                             Title = "Small Granite Car"
@@ -425,7 +425,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 37,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 459.0,
                             Title = "Small Concrete Hat"
@@ -433,7 +433,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 38,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Price = 985.0,
                             Title = "Tasty Concrete Car"
@@ -441,7 +441,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 39,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
                             Price = 740.0,
                             Title = "Ergonomic Cotton Ball"
@@ -449,7 +449,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 40,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
                             Price = 754.0,
                             Title = "Intelligent Metal Car"
@@ -457,7 +457,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 41,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 675.0,
                             Title = "Ergonomic Fresh Table"
@@ -465,7 +465,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 42,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Price = 412.0,
                             Title = "Sleek Soft Chicken"
@@ -473,7 +473,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 43,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 911.0,
                             Title = "Generic Soft Chips"
@@ -481,7 +481,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 44,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 468.0,
                             Title = "Handcrafted Metal Soap"
@@ -489,7 +489,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 45,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 994.0,
                             Title = "Ergonomic Rubber Cheese"
@@ -497,7 +497,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 46,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 883.0,
                             Title = "Generic Metal Bike"
@@ -505,7 +505,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 47,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 981.0,
                             Title = "Gorgeous Wooden Hat"
@@ -513,7 +513,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 48,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
                             Price = 201.0,
                             Title = "Ergonomic Wooden Hat"
@@ -521,7 +521,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 49,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 814.0,
                             Title = "Generic Metal Chair"
@@ -529,7 +529,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 50,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 622.0,
                             Title = "Refined Wooden Car"
@@ -537,7 +537,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 51,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 581.0,
                             Title = "Fantastic Granite Chicken"
@@ -545,7 +545,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 52,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
                             Price = 392.0,
                             Title = "Tasty Metal Bacon"
@@ -553,7 +553,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 53,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 516.0,
                             Title = "Small Plastic Bacon"
@@ -561,7 +561,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 54,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
                             Price = 305.0,
                             Title = "Practical Plastic Shirt"
@@ -569,7 +569,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 55,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 677.0,
                             Title = "Gorgeous Wooden Computer"
@@ -577,7 +577,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 56,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 864.0,
                             Title = "Generic Rubber Tuna"
@@ -585,7 +585,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 57,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
                             Price = 989.0,
                             Title = "Rustic Concrete Car"
@@ -593,7 +593,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 58,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 787.0,
                             Title = "Handmade Concrete Hat"
@@ -601,7 +601,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 59,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 748.0,
                             Title = "Rustic Soft Bacon"
@@ -609,7 +609,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 60,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 905.0,
                             Title = "Small Fresh Tuna"
@@ -617,7 +617,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 61,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 298.0,
                             Title = "Small Fresh Bacon"
@@ -625,7 +625,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 62,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
                             Price = 815.0,
                             Title = "Incredible Steel Ball"
@@ -633,7 +633,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 63,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
                             Price = 76.0,
                             Title = "Rustic Granite Table"
@@ -641,7 +641,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 64,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 744.0,
                             Title = "Ergonomic Plastic Pants"
@@ -649,7 +649,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 65,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 739.0,
                             Title = "Small Soft Tuna"
@@ -657,7 +657,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 66,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 486.0,
                             Title = "Generic Granite Chair"
@@ -665,7 +665,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 67,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
                             Price = 384.0,
                             Title = "Gorgeous Steel Car"
@@ -673,7 +673,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 68,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
                             Price = 818.0,
                             Title = "Small Fresh Gloves"
@@ -681,7 +681,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 69,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 34.0,
                             Title = "Rustic Frozen Soap"
@@ -689,7 +689,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 70,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
                             Price = 899.0,
                             Title = "Gorgeous Soft Salad"
@@ -697,7 +697,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 71,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
                             Price = 806.0,
                             Title = "Fantastic Concrete Chair"
@@ -705,7 +705,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 72,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
                             Price = 481.0,
                             Title = "Handmade Metal Gloves"
@@ -713,7 +713,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 73,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 525.0,
                             Title = "Sleek Wooden Ball"
@@ -721,7 +721,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 74,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
                             Price = 192.0,
                             Title = "Generic Plastic Fish"
@@ -729,7 +729,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 75,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 98.0,
                             Title = "Unbranded Frozen Keyboard"
@@ -737,7 +737,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 76,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
                             Price = 943.0,
                             Title = "Licensed Fresh Soap"
@@ -745,7 +745,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 77,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 235.0,
                             Title = "Handmade Granite Mouse"
@@ -753,7 +753,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 78,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 887.0,
                             Title = "Refined Steel Keyboard"
@@ -761,7 +761,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 79,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
                             Price = 184.0,
                             Title = "Refined Soft Hat"
@@ -769,7 +769,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 80,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 203.0,
                             Title = "Small Fresh Sausages"
@@ -777,7 +777,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 81,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 331.0,
                             Title = "Handmade Cotton Tuna"
@@ -785,7 +785,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 82,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Price = 23.0,
                             Title = "Intelligent Granite Chair"
@@ -793,7 +793,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 83,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 947.0,
                             Title = "Handmade Concrete Table"
@@ -801,7 +801,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 84,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 2.0,
                             Title = "Awesome Plastic Chicken"
@@ -809,7 +809,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 85,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 112.0,
                             Title = "Ergonomic Cotton Gloves"
@@ -817,7 +817,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 86,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 474.0,
                             Title = "Awesome Steel Gloves"
@@ -825,7 +825,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 87,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
                             Price = 662.0,
                             Title = "Rustic Soft Tuna"
@@ -833,7 +833,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 88,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 571.0,
                             Title = "Handmade Wooden Chicken"
@@ -841,7 +841,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 89,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 249.0,
                             Title = "Fantastic Granite Pants"
@@ -849,7 +849,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 90,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
                             Price = 636.0,
                             Title = "Refined Concrete Gloves"
@@ -857,7 +857,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 91,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 891.0,
                             Title = "Practical Wooden Gloves"
@@ -865,7 +865,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 92,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 54.0,
                             Title = "Gorgeous Cotton Towels"
@@ -873,7 +873,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 93,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
                             Price = 893.0,
                             Title = "Intelligent Metal Towels"
@@ -881,7 +881,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 94,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 218.0,
                             Title = "Incredible Fresh Car"
@@ -889,7 +889,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 95,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 525.0,
                             Title = "Unbranded Steel Sausages"
@@ -897,7 +897,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 96,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 193.0,
                             Title = "Sleek Steel Bike"
@@ -905,7 +905,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 97,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 410.0,
                             Title = "Awesome Metal Sausages"
@@ -913,7 +913,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 98,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 251.0,
                             Title = "Gorgeous Frozen Chips"
@@ -921,7 +921,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 99,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
                             Price = 681.0,
                             Title = "Licensed Wooden Sausages"
@@ -929,7 +929,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 100,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 415.0,
                             Title = "Ergonomic Rubber Ball"
@@ -937,7 +937,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 101,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 264.0,
                             Title = "Handcrafted Rubber Sausages"
@@ -945,7 +945,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 102,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
                             Price = 547.0,
                             Title = "Sleek Cotton Chair"
@@ -953,7 +953,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 103,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 866.0,
                             Title = "Rustic Frozen Pants"
@@ -961,7 +961,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 104,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
                             Price = 801.0,
                             Title = "Tasty Steel Car"
@@ -969,7 +969,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 105,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 511.0,
                             Title = "Awesome Rubber Chair"
@@ -977,7 +977,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 106,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 714.0,
                             Title = "Tasty Rubber Cheese"
@@ -985,7 +985,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 107,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 685.0,
                             Title = "Gorgeous Cotton Computer"
@@ -993,7 +993,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 108,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 466.0,
                             Title = "Ergonomic Soft Tuna"
@@ -1001,7 +1001,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 109,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
                             Price = 602.0,
                             Title = "Handcrafted Wooden Gloves"
@@ -1009,7 +1009,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 110,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
                             Price = 272.0,
                             Title = "Awesome Steel Chips"
@@ -1017,7 +1017,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 111,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
                             Price = 227.0,
                             Title = "Tasty Granite Table"
@@ -1025,7 +1025,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 112,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
                             Price = 345.0,
                             Title = "Practical Frozen Keyboard"
@@ -1033,7 +1033,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 113,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 320.0,
                             Title = "Practical Granite Pizza"
@@ -1041,7 +1041,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 114,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 784.0,
                             Title = "Handmade Metal Mouse"
@@ -1049,7 +1049,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 115,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 329.0,
                             Title = "Refined Wooden Car"
@@ -1057,7 +1057,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 116,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Price = 161.0,
                             Title = "Practical Wooden Bike"
@@ -1065,7 +1065,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 117,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
                             Price = 694.0,
                             Title = "Handmade Rubber Towels"
@@ -1073,7 +1073,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 118,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Price = 802.0,
                             Title = "Generic Fresh Chicken"
@@ -1081,7 +1081,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 119,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 658.0,
                             Title = "Small Granite Bacon"
@@ -1089,7 +1089,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 120,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 241.0,
                             Title = "Rustic Wooden Pants"
@@ -1097,7 +1097,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 121,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 113.0,
                             Title = "Generic Plastic Bike"
@@ -1105,7 +1105,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 122,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
                             Price = 297.0,
                             Title = "Rustic Rubber Towels"
@@ -1113,7 +1113,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 123,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 654.0,
                             Title = "Handcrafted Metal Chips"
@@ -1121,7 +1121,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 124,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 674.0,
                             Title = "Refined Soft Towels"
@@ -1129,7 +1129,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 125,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 838.0,
                             Title = "Generic Granite Cheese"
@@ -1137,7 +1137,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 126,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 82.0,
                             Title = "Handcrafted Wooden Salad"
@@ -1145,7 +1145,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 127,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 535.0,
                             Title = "Generic Wooden Car"
@@ -1153,7 +1153,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 128,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Price = 488.0,
                             Title = "Incredible Steel Bike"
@@ -1161,7 +1161,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 129,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
                             Price = 725.0,
                             Title = "Refined Wooden Sausages"
@@ -1169,7 +1169,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 130,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 591.0,
                             Title = "Small Cotton Chicken"
@@ -1177,7 +1177,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 131,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
                             Price = 319.0,
                             Title = "Small Frozen Ball"
@@ -1185,7 +1185,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 132,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 572.0,
                             Title = "Handcrafted Concrete Ball"
@@ -1193,7 +1193,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 133,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 945.0,
                             Title = "Refined Steel Tuna"
@@ -1201,7 +1201,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 134,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 933.0,
                             Title = "Intelligent Soft Fish"
@@ -1209,7 +1209,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 135,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
                             Price = 628.0,
                             Title = "Incredible Steel Pizza"
@@ -1217,7 +1217,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 136,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 61.0,
                             Title = "Gorgeous Cotton Keyboard"
@@ -1225,7 +1225,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 137,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 550.0,
                             Title = "Awesome Steel Ball"
@@ -1233,7 +1233,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 138,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
                             Price = 947.0,
                             Title = "Licensed Steel Shoes"
@@ -1241,7 +1241,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 139,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 1.0,
                             Title = "Practical Fresh Car"
@@ -1249,7 +1249,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 140,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
                             Price = 583.0,
                             Title = "Gorgeous Soft Shirt"
@@ -1257,7 +1257,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 141,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 835.0,
                             Title = "Practical Soft Chicken"
@@ -1265,7 +1265,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 142,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 999.0,
                             Title = "Refined Wooden Car"
@@ -1273,7 +1273,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 143,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
                             Price = 229.0,
                             Title = "Awesome Plastic Mouse"
@@ -1281,7 +1281,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 144,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Price = 761.0,
                             Title = "Gorgeous Rubber Bacon"
@@ -1289,7 +1289,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 145,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
                             Price = 640.0,
                             Title = "Fantastic Wooden Pants"
@@ -1297,7 +1297,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 146,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
                             Price = 74.0,
                             Title = "Awesome Plastic Bike"
@@ -1305,7 +1305,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 147,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
                             Price = 976.0,
                             Title = "Generic Cotton Fish"
@@ -1313,7 +1313,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 148,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
                             Price = 134.0,
                             Title = "Ergonomic Concrete Keyboard"
@@ -1321,7 +1321,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 149,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 831.0,
                             Title = "Licensed Frozen Ball"
@@ -1329,7 +1329,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 150,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 278.0,
                             Title = "Handcrafted Steel Bacon"
@@ -1337,7 +1337,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 151,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
                             Price = 495.0,
                             Title = "Small Cotton Fish"
@@ -1345,7 +1345,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 152,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 814.0,
                             Title = "Generic Plastic Salad"
@@ -1353,7 +1353,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 153,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
                             Price = 656.0,
                             Title = "Tasty Steel Shirt"
@@ -1361,7 +1361,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 154,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
                             Price = 177.0,
                             Title = "Ergonomic Rubber Bacon"
@@ -1369,7 +1369,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 155,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 493.0,
                             Title = "Handmade Fresh Car"
@@ -1377,7 +1377,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 156,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 823.0,
                             Title = "Incredible Metal Ball"
@@ -1385,7 +1385,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 157,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 731.0,
                             Title = "Intelligent Concrete Bike"
@@ -1393,7 +1393,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 158,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 81.0,
                             Title = "Handmade Steel Car"
@@ -1401,7 +1401,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 159,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Price = 550.0,
                             Title = "Generic Steel Hat"
@@ -1409,7 +1409,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 160,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
                             Price = 807.0,
                             Title = "Unbranded Granite Ball"
@@ -1417,7 +1417,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 161,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
                             Price = 798.0,
                             Title = "Licensed Metal Table"
@@ -1425,7 +1425,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 162,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
                             Price = 632.0,
                             Title = "Handcrafted Fresh Ball"
@@ -1433,7 +1433,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 163,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
                             Price = 527.0,
                             Title = "Practical Steel Salad"
@@ -1441,7 +1441,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 164,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
                             Price = 2.0,
                             Title = "Small Rubber Pizza"
@@ -1449,7 +1449,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 165,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 951.0,
                             Title = "Handmade Steel Cheese"
@@ -1457,7 +1457,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 166,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
                             Price = 804.0,
                             Title = "Generic Granite Bacon"
@@ -1465,7 +1465,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 167,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Price = 266.0,
                             Title = "Intelligent Metal Pizza"
@@ -1473,7 +1473,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 168,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
                             Price = 369.0,
                             Title = "Intelligent Fresh Bike"
@@ -1481,7 +1481,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 169,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
                             Price = 702.0,
                             Title = "Fantastic Concrete Chair"
@@ -1489,7 +1489,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 170,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
                             Price = 91.0,
                             Title = "Small Fresh Soap"
@@ -1497,7 +1497,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 171,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 958.0,
                             Title = "Licensed Soft Soap"
@@ -1505,7 +1505,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 172,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
                             Price = 867.0,
                             Title = "Awesome Metal Ball"
@@ -1513,7 +1513,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 173,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Price = 626.0,
                             Title = "Incredible Soft Hat"
@@ -1521,7 +1521,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 174,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 184.0,
                             Title = "Handcrafted Soft Tuna"
@@ -1529,7 +1529,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 175,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Price = 140.0,
                             Title = "Licensed Concrete Pizza"
@@ -1537,7 +1537,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 176,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Price = 590.0,
                             Title = "Generic Soft Gloves"
@@ -1545,7 +1545,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 177,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 446.0,
                             Title = "Tasty Plastic Bike"
@@ -1553,7 +1553,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 178,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 16.0,
                             Title = "Licensed Rubber Towels"
@@ -1561,7 +1561,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 179,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 574.0,
                             Title = "Small Frozen Fish"
@@ -1569,7 +1569,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 180,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
                             Price = 55.0,
                             Title = "Intelligent Metal Ball"
@@ -1577,7 +1577,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 181,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
                             Price = 792.0,
                             Title = "Practical Soft Bacon"
@@ -1585,7 +1585,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 182,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 882.0,
                             Title = "Handcrafted Soft Car"
@@ -1593,7 +1593,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 183,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Price = 901.0,
                             Title = "Generic Cotton Fish"
@@ -1601,7 +1601,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 184,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 37.0,
                             Title = "Intelligent Granite Towels"
@@ -1609,7 +1609,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 185,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Price = 170.0,
                             Title = "Small Rubber Chicken"
@@ -1617,7 +1617,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 186,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
                             Price = 480.0,
                             Title = "Generic Fresh Sausages"
@@ -1625,7 +1625,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 187,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
                             Price = 555.0,
                             Title = "Ergonomic Concrete Bike"
@@ -1633,7 +1633,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 188,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
                             Price = 800.0,
                             Title = "Generic Fresh Computer"
@@ -1641,7 +1641,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 189,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 34.0,
                             Title = "Rustic Metal Pizza"
@@ -1649,7 +1649,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 190,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 410.0,
                             Title = "Generic Steel Tuna"
@@ -1657,7 +1657,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 191,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 521.0,
                             Title = "Licensed Frozen Shoes"
@@ -1665,7 +1665,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 192,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Price = 588.0,
                             Title = "Ergonomic Frozen Chips"
@@ -1673,7 +1673,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 193,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 937.0,
                             Title = "Tasty Fresh Pants"
@@ -1681,7 +1681,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 194,
-                            CategoryId = 0,
+                            CategoryId = 5,
                             Description = "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
                             Price = 457.0,
                             Title = "Small Wooden Fish"
@@ -1689,7 +1689,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 195,
-                            CategoryId = 0,
+                            CategoryId = 4,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 990.0,
                             Title = "Handmade Plastic Pants"
@@ -1697,7 +1697,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 196,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Price = 585.0,
                             Title = "Incredible Cotton Car"
@@ -1705,7 +1705,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 197,
-                            CategoryId = 0,
+                            CategoryId = 2,
                             Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
                             Price = 216.0,
                             Title = "Rustic Concrete Chips"
@@ -1713,7 +1713,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 198,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
                             Price = 758.0,
                             Title = "Fantastic Concrete Cheese"
@@ -1721,7 +1721,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 199,
-                            CategoryId = 0,
+                            CategoryId = 3,
                             Description = "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
                             Price = 820.0,
                             Title = "Fantastic Fresh Tuna"
@@ -1729,7 +1729,7 @@ namespace ServMarkService.Migrations
                         new
                         {
                             Id = 200,
-                            CategoryId = 0,
+                            CategoryId = 1,
                             Description = "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
                             Price = 217.0,
                             Title = "Refined Frozen Fish"
