@@ -1,4 +1,6 @@
 using ServMarkService.Data;
+using ServMarkService.Services;
+using ServMarkService.Services.Product;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddSqlServer<ProductsContext>(builder.Configuration.GetConnectionString("CsSerMark"));
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IImageService, ImageService>();
 
 var app = builder.Build();
 
