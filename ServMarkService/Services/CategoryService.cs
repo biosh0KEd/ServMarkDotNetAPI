@@ -14,6 +14,10 @@ public class CategoryService : ICategoryService
     {
         return _context.Categories.ToList();
     }
+    public IEnumerable<Models.Product.Product> GetProducts(int categoryId)
+    {
+        return _context.Products.Where(x => x.CategoryId == categoryId).ToList();
+    }
     public async Task Add(Category category)
     {
         _context.Categories.Add(category);
@@ -43,6 +47,7 @@ public class CategoryService : ICategoryService
 public interface ICategoryService
 {
     IEnumerable<Category> Get();
+    IEnumerable<Models.Product.Product> GetProducts(int categoryId);
     Task Add(Category category);
     Task Update(int id, Category category);
     Task Delete(int id);

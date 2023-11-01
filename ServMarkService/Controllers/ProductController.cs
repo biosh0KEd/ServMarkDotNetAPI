@@ -16,7 +16,17 @@ namespace ServMarkService.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(_service.Get());
+            return Ok(_service.GetAll());
+        }
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            var product = _service.GetById(id);
+            if (product is null)
+            {
+                return NotFound();
+            }
+            return Ok(product);
         }
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Product product)

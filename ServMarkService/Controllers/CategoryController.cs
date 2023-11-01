@@ -23,6 +23,11 @@ namespace ServMarkService.Controllers
         {
             return Ok(_service.Get());
         }
+        [HttpGet("{id}/Products")]
+        public IActionResult GetProducts(int id)
+        {
+            return Ok(_service.GetProducts(id));
+        }
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Category category)
         {

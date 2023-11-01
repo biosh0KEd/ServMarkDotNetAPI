@@ -9,9 +9,13 @@ public class ProductService : IProductService
     {
         _context = context;
     }
-    public IEnumerable<Models.Product.Product> Get()
+    public IEnumerable<Models.Product.Product> GetAll()
     {
         return _context.Products.ToList();
+    }
+    public Models.Product.Product GetById(int id)
+    {
+        return _context.Products.Find(id)!;
     }
     public async Task Add(Models.Product.Product product)
     {
@@ -43,7 +47,8 @@ public class ProductService : IProductService
 
 public interface IProductService
 {
-    IEnumerable<Models.Product.Product> Get();
+    IEnumerable<Models.Product.Product> GetAll();
+    Models.Product.Product GetById(int id);
     Task Add(Models.Product.Product product);
     Task Update(int id, Models.Product.Product product);
     Task Delete(int id);

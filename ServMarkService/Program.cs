@@ -12,9 +12,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddSqlServer<ProductsContext>(builder.Configuration.GetConnectionString("CsSerMark"));
+builder.Services.AddSqlServer<UsersContext>(builder.Configuration.GetConnectionString("CsSerMark"));
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IImageService, ImageService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 
