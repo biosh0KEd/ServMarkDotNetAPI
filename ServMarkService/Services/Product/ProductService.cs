@@ -9,9 +9,20 @@ public class ProductService : IProductService
     {
         _context = context;
     }
-    public IEnumerable<Models.Product.Product> GetAll()
+    public IEnumerable<Models.Product.Product> GetAll(int? limit, int? offset)
     {
-        return _context.Products.ToList();
+        if (limit is not null)
+        {
+            return offset is null ? 
+                _context.Products.Take((int)limit).ToList() : 
+                _context.Products.Skip((int)offset).Take((int)limit).ToList();
+        }
+        else
+        {
+            return offset is null ? 
+                _context.Products.ToList() : 
+                _context.Products.Skip((int)offset).ToList();
+        }
     }
     public Models.Product.Product GetById(int id)
     {
@@ -47,7 +58,7 @@ public class ProductService : IProductService
 
 public interface IProductService
 {
-    IEnumerable<Models.Product.Product> GetAll();
+    IEnumerable<Models.Product.Product> GetAll(int? limit, int? offset);
     Models.Product.Product GetById(int id);
     Task Add(Models.Product.Product product);
     Task Update(int id, Models.Product.Product product);

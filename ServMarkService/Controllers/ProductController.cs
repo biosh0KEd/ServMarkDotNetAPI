@@ -14,9 +14,9 @@ namespace ServMarkService.Controllers
             _service = service;
         }
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult Get([FromQuery] int? limit, [FromQuery] int? offset)
         {
-            return Ok(_service.GetAll());
+            return Ok(_service.GetAll(limit, offset));
         }
         [HttpGet("{id}")]
         public IActionResult Get(int id)
