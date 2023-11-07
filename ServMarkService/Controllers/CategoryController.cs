@@ -24,9 +24,9 @@ namespace ServMarkService.Controllers
             return Ok(_service.Get());
         }
         [HttpGet("{id}/Products")]
-        public IActionResult GetProducts(int id)
+        public IActionResult GetProducts(int id, [FromQuery] int? limit, [FromQuery] int? offset)
         {
-            return Ok(_service.GetProducts(id));
+            return Ok(_service.GetProducts(id, limit, offset));
         }
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Category category)

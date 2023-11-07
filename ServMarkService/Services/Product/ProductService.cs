@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using ServMarkService.Data;
 
 namespace ServMarkService.Services.Product;
@@ -14,19 +15,34 @@ public class ProductService : IProductService
         if (limit is not null)
         {
             return offset is null ? 
-                _context.Products.Take((int)limit).ToList() : 
-                _context.Products.Skip((int)offset).Take((int)limit).ToList();
+                _context.Products
+                    .Include(p => p.Category)
+                    .Include(p => p.Images)
+                    .Take((int)limit).ToList() : 
+                _context.Products
+                    .Include(p => p.Category)
+                    .Include(p => p.Images)
+                    .Skip((int)offset).Take((int)limit).ToList();
         }
         else
         {
             return offset is null ? 
-                _context.Products.ToList() : 
-                _context.Products.Skip((int)offset).ToList();
+                _context.Products
+                    .Include(p => p.Category)
+                    .Include(p => p.Images)
+                    .ToList() : 
+                _context.Products
+                    .Include(p => p.Category)
+                    .Include(p => p.Images)
+                    .Skip((int)offset).ToList();
         }
     }
     public Models.Product.Product GetById(int id)
     {
-        return _context.Products.Find(id)!;
+        return _context.Products
+            .Include(p => p.Category)
+            .Include(p => p.Images)
+            .FirstOrDefault(p => p.Id == id)!;
     }
     public async Task Add(Models.Product.Product product)
     {

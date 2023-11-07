@@ -14,9 +14,22 @@ public class CategoryService : ICategoryService
     {
         return _context.Categories.ToList();
     }
-    public IEnumerable<Models.Product.Product> GetProducts(int categoryId)
+    public IEnumerable<Models.Product.Product> GetProducts(int categoryId, int? limit, int? offset)
     {
-        return _context.Products.Where(x => x.CategoryId == categoryId).ToList();
+        if (limit is not null)
+        {
+            return offset is null ? 
+                _context.Products
+                    .Where(x => x.CategoryId == categoryId).Take((int)limit).ToList() : 
+                _context.Products
+                    .Where(x => x.CategoryId == categoryId).Skip((int)offset).Take((int)limit).ToList();
+        }
+        else
+        {
+            return offset is null ? 
+                _context.Products.Where(x => x.CategoryId == categoryId).ToList() : 
+                _context.Products.Where(x => x.CategoryId == categoryId).Skip((int)offset).ToList();
+        }
     }
     public async Task Add(Category category)
     {
@@ -47,7 +60,7 @@ public class CategoryService : ICategoryService
 public interface ICategoryService
 {
     IEnumerable<Category> Get();
-    IEnumerable<Models.Product.Product> GetProducts(int categoryId);
+    IEnumerable<Models.Product.Product> GetProducts(int categoryId, int? limit, int? offset);
     Task Add(Category category);
     Task Update(int id, Category category);
     Task Delete(int id);

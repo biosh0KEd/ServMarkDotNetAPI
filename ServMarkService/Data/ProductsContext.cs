@@ -1672,11 +1672,10 @@ public class ProductsContext : DbContext
             product.Property(p => p.Id).UseIdentityColumn();
             product.Property(p => p.Title).IsRequired().HasMaxLength(150);
             product.Property(p => p.Description).IsRequired(false);
-            product.Property(p => p.CategoryId).IsRequired();
+            // TODO: Try if taking out the IsRequired() works
             product.HasOne(p => p.Category)
                 .WithMany(p => p.Products)
                 .HasForeignKey(p => p.CategoryId);
-            product.Property(p => p.CategoryId).IsRequired();
             product.HasData(productsInit);
         });
 
@@ -1687,7 +1686,6 @@ public class ProductsContext : DbContext
             image.Property(p => p.Id).UseIdentityColumn();
             image.Property(p => p.Url).IsRequired();
             image.Property(p => p.Alt).IsRequired(false);
-            image.Property(p => p.ProductId).IsRequired();
             image.HasOne(p => p.Product)
                 .WithMany(p => p.Images)
                 .HasForeignKey(p => p.ProductId);
