@@ -8,5 +8,6 @@ public class Image
     public string Url { get; set; }
     public string Alt { get; set; }
     public int ProductId { get; set; }
+    [JsonIgnore]
     public virtual Product Product { get; set; }
 }
