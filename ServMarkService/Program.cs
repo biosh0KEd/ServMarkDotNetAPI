@@ -2,6 +2,8 @@ using ServMarkService.Data;
 using ServMarkService.Services;
 using ServMarkService.Services.Product;
 
+const string allowServMark = "_allowServMark";
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -23,6 +25,15 @@ builder.Services.Configure<RouteOptions>(options =>
     options.LowercaseUrls = true;
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: allowServMark,
+        policy  =>
+        {
+            policy.WithOrigins("http://localhost:4200");
+        });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -33,6 +44,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(allowServMark);
 
 app.UseAuthorization();
 
