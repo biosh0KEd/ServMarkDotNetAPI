@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using ServMarkService.Data;
 using ServMarkService.Models;
 
@@ -20,15 +21,25 @@ public class CategoryService : ICategoryService
         {
             return offset is null ? 
                 _context.Products
+                    .Include(p => p.Category)
+                    .Include(p => p.Images)
                     .Where(x => x.CategoryId == categoryId).Take((int)limit).ToList() : 
                 _context.Products
+                    .Include(p => p.Category)
+                    .Include(p => p.Images)
                     .Where(x => x.CategoryId == categoryId).Skip((int)offset).Take((int)limit).ToList();
         }
         else
         {
             return offset is null ? 
-                _context.Products.Where(x => x.CategoryId == categoryId).ToList() : 
-                _context.Products.Where(x => x.CategoryId == categoryId).Skip((int)offset).ToList();
+                _context.Products
+                    .Include(p => p.Category)
+                    .Include(p => p.Images)
+                    .Where(x => x.CategoryId == categoryId).ToList() : 
+                _context.Products
+                    .Include(p => p.Category)
+                    .Include(p => p.Images)
+                    .Where(x => x.CategoryId == categoryId).Skip((int)offset).ToList();
         }
     }
     public async Task Add(Category category)
