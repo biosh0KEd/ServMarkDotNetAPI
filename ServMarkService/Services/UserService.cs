@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using ServMarkService.Data;
 using ServMarkService.Models;
 
@@ -22,10 +23,16 @@ public class UserService : IUserService
         _context.Users.Add(user);
         await _context.SaveChangesAsync();
     }
+    
+    public async Task<User?> GetByEmail(string email)
+    {
+        return await _context.Users.FirstOrDefaultAsync(u => u.Email == email) ?? null;
+    }
 }
 
 public interface IUserService
 {
     IEnumerable<User> Get();
     Task Add(User user);
+    Task<User?> GetByEmail(string email);
 }
